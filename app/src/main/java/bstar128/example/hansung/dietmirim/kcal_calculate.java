@@ -9,13 +9,16 @@ import android.widget.EditText;
  * Created by HANSUNG on 2017-10-19.
  */
 public class kcal_calculate extends Activity{
-    EditText kcal;
+    EditText weight,height;
+    int bmi,kcal;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         //칼로리 계산
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kcal_calculate);
-        kcal=(EditText)findViewById(R.id.kcal_put);
+        height=(EditText)findViewById(R.id.kcal_height);
+        weight=(EditText)findViewById(R.id.kcal_weight);
+
 
         //남자면 (질량)×24, 여자면  0.9×(질량)×24<- 기초 대사량
         //BMI-> 몸무게/ 키(m) 제곱
