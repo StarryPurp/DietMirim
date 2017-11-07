@@ -17,16 +17,13 @@ import android.widget.TabHost;
 
 public class main_page extends Activity {
     TabHost t1;
-    EditText kcalw,kcalh;
-    Button check;
+    ImageView kcal;
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_page);
 
-        kcalw=(EditText)findViewById(R.id.kcal_weight);
-        kcalh=(EditText)findViewById(R.id.kcal_height);
-        check=(Button)findViewById(R.id.check);
+        kcal=(ImageView) findViewById(R.id.kcalanddbmi);
 
         t1=(TabHost)findViewById(R.id.tabhost);
         t1.setup();
@@ -46,13 +43,14 @@ public class main_page extends Activity {
         ts3.setIndicator("PROFILE");
         t1.addTab(ts3);
 
-        check.setOnClickListener(new View.OnClickListener() {
+        kcal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            Intent i=new Intent(getApplicationContext(),kcal_calculate.class);
-            startActivity(i);
+                Intent i=new Intent(getApplicationContext(),kcal_calculate.class);
+                startActivity(i);
             }
         });
+
 //        kcal.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
