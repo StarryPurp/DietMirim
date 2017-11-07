@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -15,13 +17,16 @@ import android.widget.TabHost;
 
 public class main_page extends Activity {
     TabHost t1;
-    ImageView kcal;
+    EditText kcalw,kcalh;
+    Button check;
     protected void onCreate(Bundle savedInstanceState) {
-
-        kcal=(ImageView)findViewById(R.id.kcalandbmi);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_page);
+
+        kcalw=(EditText)findViewById(R.id.kcal_weight);
+        kcalh=(EditText)findViewById(R.id.kcal_height);
+        check=(Button)findViewById(R.id.check);
 
         t1=(TabHost)findViewById(R.id.tabhost);
         t1.setup();
@@ -41,6 +46,13 @@ public class main_page extends Activity {
         ts3.setIndicator("PROFILE");
         t1.addTab(ts3);
 
+        check.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            Intent i=new Intent(getApplicationContext(),kcal_calculate.class);
+            startActivity(i);
+            }
+        });
 //        kcal.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
