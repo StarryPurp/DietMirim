@@ -8,72 +8,11 @@
     <ImageView
         android:layout_width="162dp"
         android:layout_height="139dp"
-        android:src="@drawable/diet"/>
+        android:src="@drawable/diet" android:contentDescription="@string/todo" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:textSize="12dp"
-        android:text="키:"/>
-    <EditText
-        android:id="@+id/kcal_height"
-        android:inputType="number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="키 입력 (cm)"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:textSize="12dp"
-        android:text="몸무게:"/>
-    <EditText
-        android:id="@+id/kcal_weight"
-        android:inputType="number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="몸무게 입력(kg)"
-        />
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <RadioGroup
-            android:id="@+id/rdg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-        <RadioButton
-            android:id="@+id/male"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="남자"
-            />
-        <RadioButton
-            android:id="@+id/female"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="여자"/>
-        </RadioGroup>
-    </LinearLayout>
-    <Button
-        android:id="@+id/calcul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="계산"/>
-
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="bottom"
-        android:text="※당신의 BMI와 기초 대사량을 위한 자료수집일뿐 안심하시고 솔직히 써주시길 바랍니다 :)"/>
+        android:textSize="12sp"
+        android:text="급식표 준비중!"/>
 
 </LinearLayout>
