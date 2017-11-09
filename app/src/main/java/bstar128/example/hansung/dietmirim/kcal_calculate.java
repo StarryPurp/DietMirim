@@ -21,6 +21,7 @@ import android.widget.Toast;
  */
 public class kcal_calculate extends Activity{
     Button test;
+    Intent i;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         //칼로리 계산
@@ -32,7 +33,7 @@ public class kcal_calculate extends Activity{
        test.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               Intent i=new Intent(getApplicationContext(),show_excercise.class);
+              i=new Intent(getApplicationContext(),show_excercise.class);
                startActivity(i);
            }
        });

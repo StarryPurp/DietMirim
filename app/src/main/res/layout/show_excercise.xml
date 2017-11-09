@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -21,13 +22,57 @@
         android:paddingTop="60dp"
         android:gravity="right"
         android:text=" kcal 입니다!"/>
-
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="걷기"/>
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:id="@+id/excercise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/walk"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/walk" />
+        <ImageView
+            android:id="@+id/run"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/run"/>
+           <ImageView
+               android:id="@+id/stairs"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/stairs" />
+           <ImageView
+               android:id="@+id/jumprope"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/jumprope"/>
+            <ImageView
+                android:id="@+id/squat"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/squat" />
+            <ImageView
+                android:id="@+id/flank"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/flank"/>
+        <ImageView
+            android:id="@+id/updown"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/updown" />
 
 
 
-</android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
