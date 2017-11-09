@@ -47,67 +47,20 @@
                         android:layout_height="wrap_content"
                         android:text="Click Me!"
                         />
-
-
-
                 </LinearLayout>
-
-                <LinearLayout
+                <include
                     android:id="@+id/CALENDER"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <CalendarView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                    </CalendarView>
-
-                </LinearLayout>
-        <LinearLayout
-            android:id="@+id/SIGN"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher"/>
-            <EditText
-                android:id="@+id/identity"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="아이디"/>
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="비밀번호"/>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_margin="20dp">
-
-                <Button
-                    android:id="@+id/log"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Log In"/>
-
-                <Button
-                    android:id="@+id/sign"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Sign In" />
-
-                    </LinearLayout>
-
-                </LinearLayout>
+                    layout="@layout/excercise_calender">
+                </include>
+                <include
+                    android:id="@+id/SIGN"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    layout="@layout/sign_in">
+                </include>
             </FrameLayout>
         </LinearLayout>
     </TabHost>

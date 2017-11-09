@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DietM-master.iml" filepath="$PROJECT_DIR$/DietM-master.iml" />
+      <module fileurl="file://C:\Users\Hansung\Desktop\DietMirim\DietM-master.iml" filepath="C:\Users\Hansung\Desktop\DietMirim\DietM-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DietMirim.iml" filepath="$PROJECT_DIR$/DietMirim.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Hansung\Desktop\DietMirim\app\app.iml" filepath="C:\Users\Hansung\Desktop\DietMirim\app\app.iml" />
     </modules>
   </component>
 </project>
