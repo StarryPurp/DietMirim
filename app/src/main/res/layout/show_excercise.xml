@@ -22,27 +22,58 @@
         android:paddingTop="60dp"
         android:gravity="right"
         android:text=" kcal 입니다!"/>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
-    <LinearLayout
-        android:id="@+id/excercise"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/walk"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/walk" />
-        <ImageView
-            android:id="@+id/run"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/run"/>
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            <LinearLayout
+                android:id="@+id/excercise"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                  android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            <ImageView
+                    android:id="@+id/walk"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/walk" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="null"
+                    android:layout_alignBottom="@+id/walk"
+                    android:layout_alignLeft="@+id/walk"
+                    android:layout_alignRight="@+id/walk"
+                    android:layout_alignTop="@+id/walk"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="bottom"
+                    android:hint="열량"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="null"
+                    android:layout_alignBottom="@+id/walk"
+                    android:layout_alignLeft="@+id/walk"
+                    android:layout_alignRight="@+id/walk"
+                    android:layout_alignTop="@+id/walk"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="110dp"
+                    android:gravity="bottom"
+                    android:hint="시간"/>
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/run"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/run"/>
            <ImageView
                android:id="@+id/stairs"
                android:layout_width="150dp"
@@ -63,16 +94,14 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/flank"/>
-        <ImageView
-            android:id="@+id/updown"
+            <ImageView
+                android:id="@+id/updown"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/updown" />
 
-
-
-    </LinearLayout>
-    </ScrollView>
-
+            </LinearLayout>
+            </ScrollView>
+        </HorizontalScrollView>
 
 </LinearLayout>
