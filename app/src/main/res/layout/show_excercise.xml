@@ -23,6 +23,13 @@
         android:gravity="right"
         android:text=" kcal 입니다!"/>
 
+    <Button
+        android:id="@+id/excercise_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="추천 운동"
+        />
         <HorizontalScrollView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
@@ -44,8 +51,8 @@
                 >
             <ImageView
                     android:id="@+id/walk"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/walk" />
                 <TextView
                     android:id="@+id/walk_kcal"
@@ -56,6 +63,7 @@
                     android:layout_alignRight="@+id/walk"
                     android:layout_alignTop="@+id/walk"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
                     android:gravity="bottom"
                     android:hint="열량"/>
                 <TextView
@@ -67,7 +75,7 @@
                     android:layout_alignRight="@+id/walk"
                     android:layout_alignTop="@+id/walk"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="110dp"
+                    android:layout_marginLeft="200dp"
                     android:gravity="bottom"
                     android:hint="시간"/>
             </RelativeLayout>
@@ -77,8 +85,8 @@
                     >
             <ImageView
                 android:id="@+id/run"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/run"/>
 
                     <TextView
@@ -90,6 +98,7 @@
                         android:layout_alignRight="@+id/run"
                         android:layout_alignTop="@+id/run"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
@@ -101,7 +110,7 @@
                         android:layout_alignRight="@+id/run"
                         android:layout_alignTop="@+id/run"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="110dp"
+                        android:layout_marginLeft="200dp"
                         android:gravity="bottom"
                         android:hint="시간"/>
                 </RelativeLayout>
@@ -110,8 +119,8 @@
                     android:layout_height="fill_parent">
            <ImageView
                android:id="@+id/stairs"
-               android:layout_width="150dp"
-               android:layout_height="150dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
                android:src="@drawable/stairs" />
 
                     <TextView
@@ -123,6 +132,7 @@
                         android:layout_alignRight="@+id/stairs"
                         android:layout_alignTop="@+id/stairs"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
@@ -134,7 +144,7 @@
                         android:layout_alignRight="@+id/stairs"
                         android:layout_alignTop="@+id/stairs"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="110dp"
+                        android:layout_marginLeft="200dp"
                         android:gravity="bottom"
                         android:hint="시간"/>
                 </RelativeLayout>
@@ -143,8 +153,8 @@
                     android:layout_height="fill_parent">
            <ImageView
                android:id="@+id/jumprope"
-               android:layout_width="150dp"
-               android:layout_height="150dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
                android:src="@drawable/jumprope"/>
 
                     <TextView
@@ -156,6 +166,7 @@
                         android:layout_alignRight="@+id/jumprope"
                         android:layout_alignTop="@+id/jumprope"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
@@ -167,7 +178,7 @@
                         android:layout_alignRight="@+id/jumprope"
                         android:layout_alignTop="@+id/jumprope"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="110dp"
+                        android:layout_marginLeft="200dp"
                         android:gravity="bottom"
                         android:hint="시간"/>
                 </RelativeLayout>
@@ -176,8 +187,8 @@
                     android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/squat"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/squat" />
                     <TextView
                         android:id="@+id/squat_kcal"
@@ -188,6 +199,7 @@
                         android:layout_alignRight="@+id/squat"
                         android:layout_alignTop="@+id/squat"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
@@ -199,7 +211,7 @@
                         android:layout_alignRight="@+id/squat"
                         android:layout_alignTop="@+id/squat"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="110dp"
+                        android:layout_marginLeft="200dp"
                         android:gravity="bottom"
                         android:hint="시간"/>
 
@@ -209,8 +221,8 @@
                     android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/flank"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/flank"/>
                     <TextView
                         android:id="@+id/flank_kcal"
@@ -221,6 +233,7 @@
                         android:layout_alignRight="@+id/flank"
                         android:layout_alignTop="@+id/flank"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
@@ -232,7 +245,7 @@
                         android:layout_alignRight="@+id/flank"
                         android:layout_alignTop="@+id/flank"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="110dp"
+                        android:layout_marginLeft="200dp"
                         android:gravity="bottom"
                         android:hint="시간"/>
 
@@ -242,8 +255,8 @@
                     android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/updown"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/updown" />
 
                     <TextView
@@ -255,6 +268,7 @@
                         android:layout_alignRight="@+id/updown"
                         android:layout_alignTop="@+id/updown"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
@@ -266,7 +280,7 @@
                         android:layout_alignRight="@+id/updown"
                         android:layout_alignTop="@+id/updown"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="110dp"
+                        android:layout_marginLeft="200dp"
                         android:gravity="bottom"
                         android:hint="시간"/>
                 </RelativeLayout>

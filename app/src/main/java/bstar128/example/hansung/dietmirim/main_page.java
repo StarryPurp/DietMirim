@@ -51,34 +51,6 @@ public class main_page extends Activity {
             }
         });
 
-//        kcal.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i=new Intent(getApplicationContext(),kcal_calculate.class);
-//                startActivity(i);
-//            }
-//        });
 
-//        imgbut1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i=new Intent(getApplicationContext(),kcal_calculate.class);
-//                startActivity(i);
-//            }
-//        });
-//        imgbut2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i=new Intent(getApplicationContext(),excercise_calender.class);
-//                startActivity(i);
-//            }
-//        });
-//        imgbut3.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i=new Intent(getApplicationContext(),joining.class);
-//                startActivity(i);
-//            }
-//        });//깔끔하게 하는 방법 찾기
     }
 }
