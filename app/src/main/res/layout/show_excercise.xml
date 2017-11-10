@@ -35,7 +35,9 @@
                  android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                  android:gravity="center_horizontal"
-                  android:orientation="horizontal">
+                  android:orientation="horizontal"
+                android:visibility="invisible"
+                >
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -46,6 +48,7 @@
                     android:layout_height="150dp"
                     android:src="@drawable/walk" />
                 <TextView
+                    android:id="@+id/walk_kcal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/walk"
@@ -56,6 +59,7 @@
                     android:gravity="bottom"
                     android:hint="열량"/>
                 <TextView
+                    android:id="@+id/walk_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/walk"
@@ -78,6 +82,7 @@
                 android:src="@drawable/run"/>
 
                     <TextView
+                        android:id="@+id/run_kcal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/run"
@@ -88,6 +93,7 @@
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
+                        android:id="@+id/run_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/run"
@@ -109,6 +115,7 @@
                android:src="@drawable/stairs" />
 
                     <TextView
+                        android:id="@+id/stairs_kcal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/stairs"
@@ -119,6 +126,7 @@
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
+                        android:id="@+id/stairs_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/stairs"
@@ -140,6 +148,7 @@
                android:src="@drawable/jumprope"/>
 
                     <TextView
+                        android:id="@+id/jumprope_kcal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/jumprope"
@@ -150,6 +159,7 @@
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
+                        android:id="@+id/jumprope_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/jumprope"
@@ -170,6 +180,7 @@
                 android:layout_height="150dp"
                 android:src="@drawable/squat" />
                     <TextView
+                        android:id="@+id/squat_kcal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/squat"
@@ -180,6 +191,7 @@
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
+                        android:id="@+id/squat_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/squat"
@@ -201,6 +213,7 @@
                 android:layout_height="150dp"
                 android:src="@drawable/flank"/>
                     <TextView
+                        android:id="@+id/flank_kcal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/flank"
@@ -211,6 +224,7 @@
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
+                        android:id="@+id/flank_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/flank"
@@ -233,6 +247,7 @@
                 android:src="@drawable/updown" />
 
                     <TextView
+                        android:id="@+id/updown_kcal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/updown"
@@ -243,6 +258,7 @@
                         android:gravity="bottom"
                         android:hint="열량"/>
                     <TextView
+                        android:id="@+id/updown_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/updown"
