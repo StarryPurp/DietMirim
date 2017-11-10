@@ -48,7 +48,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="null"
                     android:layout_alignBottom="@+id/walk"
                     android:layout_alignLeft="@+id/walk"
                     android:layout_alignRight="@+id/walk"
@@ -59,7 +58,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="null"
                     android:layout_alignBottom="@+id/walk"
                     android:layout_alignLeft="@+id/walk"
                     android:layout_alignRight="@+id/walk"
@@ -69,36 +67,193 @@
                     android:gravity="bottom"
                     android:hint="시간"/>
             </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    >
             <ImageView
                 android:id="@+id/run"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/run"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/run"
+                        android:layout_alignLeft="@+id/run"
+                        android:layout_alignRight="@+id/run"
+                        android:layout_alignTop="@+id/run"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:hint="열량"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/run"
+                        android:layout_alignLeft="@+id/run"
+                        android:layout_alignRight="@+id/run"
+                        android:layout_alignTop="@+id/run"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="110dp"
+                        android:gravity="bottom"
+                        android:hint="시간"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
            <ImageView
                android:id="@+id/stairs"
                android:layout_width="150dp"
                android:layout_height="150dp"
                android:src="@drawable/stairs" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/stairs"
+                        android:layout_alignLeft="@+id/stairs"
+                        android:layout_alignRight="@+id/stairs"
+                        android:layout_alignTop="@+id/stairs"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:hint="열량"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/stairs"
+                        android:layout_alignLeft="@+id/stairs"
+                        android:layout_alignRight="@+id/stairs"
+                        android:layout_alignTop="@+id/stairs"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="110dp"
+                        android:gravity="bottom"
+                        android:hint="시간"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
            <ImageView
                android:id="@+id/jumprope"
                android:layout_width="150dp"
                android:layout_height="150dp"
                android:src="@drawable/jumprope"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/jumprope"
+                        android:layout_alignLeft="@+id/jumprope"
+                        android:layout_alignRight="@+id/jumprope"
+                        android:layout_alignTop="@+id/jumprope"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:hint="열량"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/jumprope"
+                        android:layout_alignLeft="@+id/jumprope"
+                        android:layout_alignRight="@+id/jumprope"
+                        android:layout_alignTop="@+id/jumprope"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="110dp"
+                        android:gravity="bottom"
+                        android:hint="시간"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/squat"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/squat" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/squat"
+                        android:layout_alignLeft="@+id/squat"
+                        android:layout_alignRight="@+id/squat"
+                        android:layout_alignTop="@+id/squat"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:hint="열량"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/squat"
+                        android:layout_alignLeft="@+id/squat"
+                        android:layout_alignRight="@+id/squat"
+                        android:layout_alignTop="@+id/squat"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="110dp"
+                        android:gravity="bottom"
+                        android:hint="시간"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/flank"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/flank"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/flank"
+                        android:layout_alignLeft="@+id/flank"
+                        android:layout_alignRight="@+id/flank"
+                        android:layout_alignTop="@+id/flank"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:hint="열량"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/flank"
+                        android:layout_alignLeft="@+id/flank"
+                        android:layout_alignRight="@+id/flank"
+                        android:layout_alignTop="@+id/flank"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="110dp"
+                        android:gravity="bottom"
+                        android:hint="시간"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/updown"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/updown" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/updown"
+                        android:layout_alignLeft="@+id/updown"
+                        android:layout_alignRight="@+id/updown"
+                        android:layout_alignTop="@+id/updown"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:hint="열량"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/updown"
+                        android:layout_alignLeft="@+id/updown"
+                        android:layout_alignRight="@+id/updown"
+                        android:layout_alignTop="@+id/updown"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="110dp"
+                        android:gravity="bottom"
+                        android:hint="시간"/>
+                </RelativeLayout>
 
             </LinearLayout>
             </ScrollView>
