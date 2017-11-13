@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,13 +26,21 @@ public class joining extends Activity{
         sign=(Button)findViewById(R.id.sign);
         log=(Button)findViewById(R.id.log);
 
-    sign.setOnClickListener(new View.OnClickListener() {//회원가입 창 이동
-        @Override
-        public void onClick(View view) {
-            Intent i=new Intent(getApplicationContext(),sign_in.class);
-            startActivity(i);
-        }
-    });
+//        sign.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i=new Intent(getApplicationContext(), sign_in.class);
+//                startActivity(i);
+//            }
+//        });
+//        sign.setOnTouchListener(new View.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event) {
+//                Intent i=new Intent(getApplicationContext(),sign_in.class);
+//                startActivity(i);
+//                return false;
+//            }
+//        }); //버튼이 안먹는당....ㅠㅠ
 
 
     }

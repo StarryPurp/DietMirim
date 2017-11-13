@@ -21,7 +21,6 @@ public class sign_in extends Activity{
 
         mAuth = FirebaseAuth.getInstance();
 
-
     }
     @Override
     public void onStart() {

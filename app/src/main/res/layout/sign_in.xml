@@ -20,7 +20,8 @@
             android:text="이름"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -33,7 +34,8 @@
             android:text="아이디"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -47,6 +49,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:password="true"/>
     </LinearLayout>
     <LinearLayout
@@ -60,9 +63,28 @@
             android:text="이메일"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운동 역량"/>
 
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:layout_weight="1" />
+
+    </LinearLayout>
 
 
 </LinearLayout>

@@ -51,8 +51,8 @@
                 >
             <ImageView
                     android:id="@+id/walk"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
                     android:src="@drawable/walk" />
                 <TextView
                     android:id="@+id/walk_kcal"
@@ -85,8 +85,8 @@
                     >
             <ImageView
                 android:id="@+id/run"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
                 android:src="@drawable/run"/>
 
                     <TextView
@@ -119,8 +119,8 @@
                     android:layout_height="fill_parent">
            <ImageView
                android:id="@+id/stairs"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
+               android:layout_width="300dp"
+               android:layout_height="300dp"
                android:src="@drawable/stairs" />
 
                     <TextView
@@ -153,8 +153,8 @@
                     android:layout_height="fill_parent">
            <ImageView
                android:id="@+id/jumprope"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
+               android:layout_width="300dp"
+               android:layout_height="300dp"
                android:src="@drawable/jumprope"/>
 
                     <TextView
@@ -187,8 +187,8 @@
                     android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/squat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
                 android:src="@drawable/squat" />
                     <TextView
                         android:id="@+id/squat_kcal"
@@ -221,8 +221,8 @@
                     android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/flank"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
                 android:src="@drawable/flank"/>
                     <TextView
                         android:id="@+id/flank_kcal"
@@ -255,8 +255,8 @@
                     android:layout_height="fill_parent">
             <ImageView
                 android:id="@+id/updown"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
                 android:src="@drawable/updown" />
 
                     <TextView

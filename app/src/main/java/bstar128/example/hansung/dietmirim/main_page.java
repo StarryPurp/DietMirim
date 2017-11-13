@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 /**
  * Created by HANSUNG on 2017-10-19.
@@ -43,6 +44,15 @@ public class main_page extends Activity {
         ts3.setIndicator("PROFILE");
         t1.addTab(ts3);
 
+        Button b = findViewById(R.id.sign);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(), sign_in.class);
+                startActivity(i);;
+            }
+        });
+
         kcal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,6 +60,7 @@ public class main_page extends Activity {
                 startActivity(i);
             }
         });
+
 
 
     }
