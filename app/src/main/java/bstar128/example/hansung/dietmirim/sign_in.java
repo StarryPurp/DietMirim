@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseUser;
  */
 
 public class sign_in extends Activity{
-    //회원가입-> 성별, 이름, 이메일, 생년월일, 아이디, 비밀번호, 키, 몸무게
+    //회원가입-> 성별, 이름, 이메일, 아이디, 비밀번호, 키, 몸무게
     private FirebaseAuth mAuth;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

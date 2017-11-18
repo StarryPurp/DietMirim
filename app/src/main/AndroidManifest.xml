@@ -21,7 +21,6 @@
         <activity android:name=".main_page"></activity>
         <activity android:name=".kcal_calculate"></activity>
         <activity android:name=".excercise_calender"></activity>
-        <activity android:name=".joining"></activity>
         <activity android:name=".sign_in"></activity>
         <activity android:name=".show_excercise"></activity>
     </application>
