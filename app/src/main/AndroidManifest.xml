@@ -23,6 +23,7 @@
         <activity android:name=".excercise_calender"></activity>
         <activity android:name=".sign_in"></activity>
         <activity android:name=".show_excercise"></activity>
+        <activity android:name=".profile"></activity>
     </application>
 
 </manifest>
