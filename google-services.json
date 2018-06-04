@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "760484023947",
+    "firebase_url": "https://newdietmirim.firebaseio.com",
+    "project_id": "newdietmirim",
+    "storage_bucket": "newdietmirim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760484023947:android:1ed9387e20e3da37",
+        "android_client_info": {
+          "package_name": "bstar128.example.hansung.dietmirim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760484023947-8fki9agkpafvj6epbqeobi2kruac3td3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "760484023947-8fki9agkpafvj6epbqeobi2kruac3td3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLjEDHF6ScPsVXfzbCE1ZRo_fy9L7jsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
