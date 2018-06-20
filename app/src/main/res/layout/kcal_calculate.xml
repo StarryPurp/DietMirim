@@ -5,15 +5,11 @@
     android:padding="10dp"
     android:gravity="center">
 
-    <ImageView
-        android:layout_width="162dp"
-        android:layout_height="139dp"
-        android:src="@drawable/lunchbox" android:contentDescription="@string/todo" />
-    <TextView
+    <EditText
+        android:id="@+id/kcal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="12sp"
-        android:text="급식표 준비중!"/>
+        android:hint="섭취한 칼로리 입력"/>
     <Button
         android:id="@+id/test"
         android:layout_width="wrap_content"

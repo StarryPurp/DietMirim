@@ -33,7 +33,7 @@ public class main_page extends Activity {
     EditText identity,password;
     Button sign,log;
     private DatabaseReference databaseReference;
-    private DatabaseReference databaseReference2;
+
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);

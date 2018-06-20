@@ -21,6 +21,7 @@ import android.widget.Toast;
  */
 public class kcal_calculate extends Activity{
     Button test;
+    EditText kcal_text;
     Intent i;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,7 +29,11 @@ public class kcal_calculate extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kcal_calculate);
 
+
         test=(Button)findViewById(R.id.test);
+        kcal_text=(EditText)findViewById(R.id.kcal);
+
+        int kcal=Integer.parseInt(kcal_text.getText().toString());
 
        test.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -38,12 +43,12 @@ public class kcal_calculate extends Activity{
            }
        });
 
-//        Toast tm=Toast.makeText(kcal_calculate.this,"기초 대사량: "+kcal,Toast.LENGTH_SHORT);
-//        Display dis=((WindowManager)getSystemService(WINDOW_SERVICE)).getDefaultDisplay();
-//        int xoffset=(int)(Math.random()*dis.getWidth());
-//        int yoffset=(int)(Math.random()*dis.getHeight());
-//        tm.setGravity(Gravity.TOP|Gravity.LEFT,xoffset,yoffset);
-//        tm.show(); //잘 뜨는지 테스트!
+        Toast tm=Toast.makeText(kcal_calculate.this,"기초 대사량: "+kcal,Toast.LENGTH_SHORT);
+       Display dis=((WindowManager)getSystemService(WINDOW_SERVICE)).getDefaultDisplay();
+       int xoffset=(int)(Math.random()*dis.getWidth());
+       int yoffset=(int)(Math.random()*dis.getHeight());
+       tm.setGravity(Gravity.TOP|Gravity.LEFT,xoffset,yoffset);
+       tm.show(); //잘 뜨는지 테스트!*/
 
         //남자면 (질량)×24, 여자면  0.9×(질량)×24<- 기초 대사량
         //BMI-> 몸무게/ 키(m) 제곱
@@ -55,5 +60,5 @@ public class kcal_calculate extends Activity{
 //        int xoffset=(int)(Math.random()*dis.getWidth());
 //        int yoffset=(int)(Math.random()*dis.getHeight());
 //
-//        tm.setGravity(Gravity.TOP|Gravity.LEFT,xoffset,yoffset);
-//        tm.show(); //잘 뜨는지 테스트!
+//       tm.setGravity(Gravity.TOP|Gravity.LEFT,xoffset,yoffset);
+//       tm.show(); //잘 뜨는지 테스트!

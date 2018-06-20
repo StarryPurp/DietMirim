@@ -1,7 +1,10 @@
 package bstar128.example.hansung.dietmirim;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -76,6 +79,25 @@ public class sign_in extends Activity{
             }
         });
     }
+
+  /*  public class myDBHelper extends SQLiteOpenHelper{
+        public myDBHelper(Context c){
+            super(c,"DietDE",null,1);
+
+        }
+
+        @Override
+        public void onCreate(SQLiteDatabase sqLiteDatabase) {
+            sqLiteDatabase.execSQL("CREATE TABLE DietMirim (Mname CHAR(20) PRIMARY KEY, height INTEGER)");
+        }
+
+        @Override
+        public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+
+        }
+    }*/
+
+
     void makeNewId()
     {
         Date date = new Date(System.currentTimeMillis());

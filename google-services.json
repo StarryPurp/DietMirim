@@ -1,9 +1,18 @@
 {
+  "users":{
+    "가입일":"",
+    "name":"",
+    "passwd":"",
+    "height":"",
+    "weight":"",
+    "exercise_p":"",
+    "gender":""
+  },
   "project_info": {
     "project_number": "760484023947",
-    "firebase_url": "https://newdietmirim.firebaseio.com",
-    "project_id": "newdietmirim",
-    "storage_bucket": "newdietmirim.appspot.com"
+    "firebase_url": "https://dietmirim.firebaseio.com",
+    "project_id": "dietmirim",
+    "storage_bucket": "dietmirim.appspot.com"
   },
   "client": [
     {
