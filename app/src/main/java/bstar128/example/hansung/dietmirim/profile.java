@@ -19,12 +19,12 @@ public class profile extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile);
 
-//        edit.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i=new Intent(getApplicationContext(),sign_in.class);
-//                startActivity(i);
-//            }
-//        });// 수정하는 부분-> 회원가입 창을 이용
+       edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+          public void onClick(View view) {
+                Intent i=new Intent(getApplicationContext(),sign_in.class);
+               startActivity(i);
+           }
+        });// 수정하는 부분-> 회원가입 창을 이용
     }
 }
